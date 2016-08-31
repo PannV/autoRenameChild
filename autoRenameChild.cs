@@ -13,7 +13,7 @@ public class autoRenameChild : MonoBehaviour {
 		string parentName = this.gameObject.name;
 		var colorNameOnly = parentName.Remove (parentName.Length - 4);
 
-		//find child that has string "mount"
+		//find child
 		child = transform.FindChild(mount);
 
 		if (child.name != "_" + colorNameOnly + child.name) {
