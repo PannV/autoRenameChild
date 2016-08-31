@@ -7,7 +7,7 @@ public class autoRenameChild : MonoBehaviour {
 	Transform child;
 	GameObject parent;
 	public string mount = "Mount" ;
-	//var colorNameOnly;
+
 
 	void Awake(){
 		string parentName = this.gameObject.name;
